@@ -1,3 +1,19 @@
+====================================================================================================
+Deploying `openstack-manuals (fork) <https://github.com/QubitPi/openstack-manuals>`_ to GitHub Pages
+====================================================================================================
+
+This documentation repo is actually an ensemble of 5 doc sites. Since GitHub pages doesn't support hosting multiple
+root index.html's, the output of ``tox -e docs`` command, which generates all deployable doc sites, have been
+migrated to the following 5 separate repos:
+
+- `Install Guide <https://github.com/QubitPi/openstack-manuals-install-guide>`_
+- `Doc Contribution Guide <https://github.com/QubitPi/openstack-manuals-doc-contrib-guide>`_
+- `Virtual Machine Image Guide <https://github.com/QubitPi/openstack-manuals-virtual-machine-image-guide>`_
+- `API Quick Start <https://github.com/QubitPi/openstack-manuals-api-quick-start>`_
+- `Glossary <https://github.com/QubitPi/openstack-manuals-glossary>`_
+
+------------
+
 ========================
 Team and repository tags
 ========================
